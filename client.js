@@ -39,4 +39,45 @@ const employees = [
 // This is not a race. Everyone on your team should understand what is happening.
 // Ask questions when you don't.
 
+
 console.log( employees );
+
+//## Processing Employee Bonuses
+  for( let i =0; i < employees.length; i++){
+    console.log( employees[i])
+    addToEmployeeFile(employees[i])
+  }
+
+  //## Function Logic
+  function addToEmployeeFile (employee){
+    if ( employees.reviewRating >= 2 ){
+      totalBonus = 0;
+    }
+    else if( employees.reviewRating === 3)
+    totalBonus = .04*employees.annualSalary
+
+    else if( employees.reviewRating === 4)
+    totalBonus = .06*employees.annualSalary
+
+    else if( employees.reviewRating === 5)
+    totalBonus = .10*employees.annualSalary 
+    
+    if (employees.employeeNumber = employees.employeeNumber[4])
+
+    let newObject = {
+      name: employees.name,
+    //   bonusPercentage: bonusPercentage,
+    //   totalCompensation: totalCompensation,
+    //   totalBonus: totalBonus,
+    }
+  }
+  //   return newObject;
+  // 
+ 
+
+   
+
+   
+
+  //### Individual Bonus calculation
+
